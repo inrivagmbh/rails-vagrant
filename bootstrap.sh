@@ -26,12 +26,12 @@ then
     git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 
     # Install and use ruby 2.0.0-rc2
-    rbenv install 2.0.0-rc2
+    rbenv install 2.1.2
     rbenv rehash
-    rbenv global 2.0.0-rc2
+    rbenv global 2.1.2
 
     gem install rails
-    gem install sqlite3 -v '1.3.7'
+    gem install sqlite3 -v '1.3.10'
     gem install execjs
 
     source ~/.profile
