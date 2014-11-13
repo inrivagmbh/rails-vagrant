@@ -2,6 +2,7 @@
 This is a Ruby on Rails Vagrant box running on Ubuntu 12.04LTS.
 
 ###Getting Started
+- Install git (http://git-scm.com/) for free.
 - Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads) for free.
 - Install the latest version of [Vagrant](http://downloads.vagrantup.com/) for free.
 - Clone this repo and vagrant up
