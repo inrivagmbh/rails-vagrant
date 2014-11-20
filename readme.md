@@ -8,7 +8,7 @@ This is a Ruby on Rails Vagrant box running on Ubuntu 12.04LTS.
 - Clone this repo and vagrant up
 
 ```bash
-$ git clone https://github.com/markdunphy/rails-vagrant.git
+$ git clone https://github.com/inrivagmbh/rails-vagrant.git
 $ cd rails-vagrant
 $ vagrant up
 ```
