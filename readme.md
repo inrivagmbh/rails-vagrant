@@ -7,6 +7,17 @@ This is a Ruby on Rails Vagrant box running on Ubuntu 12.04LTS.
 - Install the latest version of [Vagrant](http://downloads.vagrantup.com/) for free.
 - Clone this repo and vagrant up
 
+###Rubymine Setup
+
+- go to options (command+,)
+- search SDK in options,
+- click Add SDK / new remote
+- click Fill from Vagrant config and select the folder where your Vagrantfile is located
+- Very important: In the field Ruby interpreter path, put /home/vagrant/.rbenv/versions/2.****/bin/ruby (your ruby version may change, check your versions with ls /home/vagrant/.rbenv/versions in your guest machine
+- Click OK, grab a cofee
+- You're done
+http://stackoverflow.com/questions/19662203/configure-rubymine-with-vagrant-and-rbenv
+
 ```bash
 $ git clone https://github.com/inrivagmbh/rails-vagrant.git
 $ cd rails-vagrant
